@@ -5,7 +5,7 @@ function UPDATE_SCORE () {
     OLED.newLine()
     OLED.writeStringNewLine("PLAYER B: " + PB)
     OLED.newLine()
-    OLED.writeStringNewLine("PLAYER T: " + TIES)
+    OLED.writeStringNewLine(" T: " + TIES)
     OLED.newLine()
     OLED.writeStringNewLine("PLAYER ROUNDS: " + rounds)
 }
